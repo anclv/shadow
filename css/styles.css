@@ -1,0 +1,165 @@
+body {
+  background-color: rgb(20, 20, 20);
+}
+
+strong {
+  color: aqua;
+}
+
+#titulo {
+  color: rgb(20, 20, 20);
+  background: linear-gradient(aqua, white, yellow, white, aqua);
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#titulo-2 {
+  color: gold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+#titulo-3 {
+  color: gold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5em;
+}
+
+#titulo-4 {
+  color: gold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#titulo-5 {
+  color: gold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+}
+
+#titulo-6 {
+  color: gold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+}
+
+#titulo-7 {
+  color: gold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+}
+
+#subtitulo-1,
+#subtitulo-2,
+#subtitulo-3,
+#subtitulo-4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  color: aqua;
+}
+
+#informacion,
+#clubes,
+#titulos-ganados,
+#familia,
+#extra,
+#imagenes {
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.links {
+  color: aqua;
+}
+
+.item {
+  color: gold;
+}
+
+.parrafos {
+  text-align: justify;
+}
+
+img.imagen {
+  width: 714px;
+}
+
+#main-header {
+  background: #333333;
+  color: white;
+  height: 80px;
+}
+
+#main-header a {
+  color: white;
+}
+
+#logo-header {
+  float: left;
+  padding: 15px 0 0 20px;
+  text-decoration: none;
+}
+
+#logo-header:hover {
+  color: #0b76a6;
+}
+
+#logo-header .creadora {
+  display: block;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+#logo-header .descripcion {
+  display: block;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #999;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #0b76a6;
+}
+
+#main-footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+#main-footer p {
+  margin: 0;
+}
+
+#main-footer a {
+  color: white;
+}
